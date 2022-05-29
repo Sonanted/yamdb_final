@@ -8,7 +8,8 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    os.getenv('HOST', '51.250.103.133')
+    'localhost',
+    '127.0.0.1'
 ]
 
 INSTALLED_APPS = [
