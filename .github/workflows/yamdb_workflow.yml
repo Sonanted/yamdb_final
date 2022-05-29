@@ -1,6 +1,7 @@
 name: YaMDb app workflow
 
 on: [push]
+
 jobs:
 
   tests:
