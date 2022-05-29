@@ -59,9 +59,9 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            docker pull sonanted/api_yamdb:latest
-            docker compose stop
-            docker compose rm web
+            sudo docker pull sonanted/api_yamdb:latest
+            sudo docker compose stop
+            sudo docker compose rm web
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
@@ -70,7 +70,7 @@ jobs:
             echo DB_HOST=${{ secrets.DB_HOST }} >> .env
             echo DB_PORT=${{ secrets.DB_PORT }} >> .env
             echo HOST=${{ secrets.HOST }} >> .env
-            docker compose up -d
+            sudo docker compose up -d
   
   send_message:
     runs-on: ubuntu-latest
