@@ -1,6 +1,7 @@
 name: YaMDb app workflow
 
 on: [push]
+
 jobs:
 
   tests:
@@ -19,7 +20,7 @@ jobs:
         pip install -r api_yamdb/requirements.txt 
     - name: Test with flake8 and django tests
       run: |
-        pytest
+        # pytest
         python -m flake8
         cd api_yamdb/
         python manage.py test
