@@ -3,7 +3,6 @@ name: YaMDb app workflow
 on: [push]
 
 jobs:
-
   tests:
     name: pytest, flake8 and django tests
     runs-on: ubuntu-latest
