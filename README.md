@@ -1,6 +1,5 @@
 ![YaMDb workflow](https://github.com/Sonanted/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-[Ссылка на рабочий сайт](http://51.250.108.159/redoc/)
 # api_yamdb
 ## Проект YaMDb собирает отзывы пользователей на различные произведения
 
