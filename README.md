@@ -1,5 +1,3 @@
-![YaMDb workflow](https://github.com/Sonanted/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-
 # api_yamdb
 ## Проект YaMDb собирает отзывы пользователей на различные произведения
 
